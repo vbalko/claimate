@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+        body {
+            color: #014495!important;
+        }
+        h1 {
+            font-family: "Raleway", sans-serif;
+            color: #014495;
+        }
+        body, html {
+            height: 100%
+        }
+        .bgimg {
+            background-image: url('./clouds.png');
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.motto-section, .coming-soon-section {
+  text-align: center;
+}
+
+.motto-section h2 {
+  font-size: 2.5em;  /* Increased font size */
+  font-weight: bold;  /* Made it bold */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Added some text shadow */
+  margin-bottom: 0;
+  opacity: 0.7;  /* Increased opacity for more visibility */
+}
+
+
+.motto-section p {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.motto-section h2, .motto-section p {
+  opacity: 0.5;  /* 50% translucent */
+}
+
+.about-section {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.about-section h3 {
+  font-weight: bold;  /* Made it bold */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);  /* Added some text shadow */
+ opacity: 0.7;
+  font-size: 1.8em;
+  margin-bottom: 0;
+}
+
+.about-section p {
+
+  opacity: 0.5;  /* Slightly translucent */
+  font-size: 1.3em;
+  margin-top: 0;
+}
+
+.logo {
+    max-width: 150px; /* Adjust based on your requirement */
+    opacity: 0.5; /* Adding some transparency */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.1));
+}
+
+.header-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
+    z-index: 1000;
+}
+
+.header-bar img.logo {
+    max-width: 150px;
+    margin: 10px;
+}
+
+.watermark-logo {
+    position: fixed;
+    opacity: 0.2; /* Adjust as needed */
+    
+    width: 20%; /* Adjust as needed */
+}
+
+    </style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+        <!-- LOGO -->
+<div class="header-bar">
+    <img class="logo" src="./Logo.png">
+</div>
+
+
+
+
+    </div>
+    <div class="w3-display-middle w3-padding-large center-container">
+        <!-- New Central Motto Section -->
+        <div class="motto-section">
+            <h2>Transform your business with smart cloud solutions</h2>
+            <p>Boost efficiency and embrace the future with innovative tech integration and data analytics.</p>
+        </div>
+        <!-- Existing Content Below -->
+        <div class="coming-soon-section">
+            <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
+            <hr class="w3-border-grey" style="margin:auto;width:40%">
+
+        </div>
+        <!-- New About CLAIMATE Section -->
+        <div class="about-section">
+            <h3>About CLAIMATE</h3>
+            <p>Claimate was founded with a mission to help businesses thrive in the digital age. Our team of experts specializes in providing smart cloud solutions that empower companies to make data-driven decisions and achieve their goals. With a focus on innovation and customer service, we are here to be your trusted digital transformation partner. Join us on this exciting journey towards a smarter, future-proof business.</p>
+        </div>
+
+    </div>
+    <div class="w3-display-bottomleft w3-padding-large">
+        <!-- Optional Footer Content -->
+    </div>
+</div>
+
+
+</body>
+
+</html>
